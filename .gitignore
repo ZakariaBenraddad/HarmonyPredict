@@ -1,1 +1,37 @@
+# Ignore environment files
 .env
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+# Ignore node modules
+node_modules/
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+# Ignore cache and log files
+*.log
+.cache/
+# Ignore virtual environments
+venv/
+env/
+# Ignore package lock files
+package-lock.json
+yarn.lock
+# Ignore any importable modules or packages
+*.egg-info/
+dist/
+build/
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+# Ignore all files in the imports directory if exists
+imports/
+# Ignore all files in the imported directory if exists
+imported/
+# Ignore all files ending with .imported.*
+*.imported.*
+# Ignore all files ending with .import.*
+*.import.*
+# Ignore all files ending with .imp.*
+*.imp.*
